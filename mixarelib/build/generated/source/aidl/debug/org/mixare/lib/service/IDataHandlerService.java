@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\Android Studio Projects\\mixare\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IDataHandlerService.aidl
+ * Original file: G:\\project\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IDataHandlerService.aidl
  */
 package org.mixare.lib.service;
 /**
@@ -124,7 +124,6 @@ public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
-/** Request the process ID of this service. */
 @Override public int getPid() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -241,7 +240,6 @@ static final int TRANSACTION_getUrlMatch = (android.os.IBinder.FIRST_CALL_TRANSA
 static final int TRANSACTION_getDataMatch = (android.os.IBinder.FIRST_CALL_TRANSACTION + 4);
 static final int TRANSACTION_load = (android.os.IBinder.FIRST_CALL_TRANSACTION + 5);
 }
-/** Request the process ID of this service. */
 public int getPid() throws android.os.RemoteException;
 public java.lang.String build() throws android.os.RemoteException;
 public java.lang.String getPluginName() throws android.os.RemoteException;

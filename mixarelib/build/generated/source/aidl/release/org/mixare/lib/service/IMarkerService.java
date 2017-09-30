@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\Android Studio Projects\\mixare\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IMarkerService.aidl
+ * Original file: G:\\project\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IMarkerService.aidl
  */
 package org.mixare.lib.service;
 /**
@@ -444,7 +444,6 @@ public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
-/** Request the process ID of this service. */
 @Override public int getPid() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -1064,7 +1063,6 @@ static final int TRANSACTION_getUnderline = (android.os.IBinder.FIRST_CALL_TRANS
 static final int TRANSACTION_setTxtLab = (android.os.IBinder.FIRST_CALL_TRANSACTION + 28);
 static final int TRANSACTION_getTxtLab = (android.os.IBinder.FIRST_CALL_TRANSACTION + 29);
 }
-/** Request the process ID of this service. */
 public int getPid() throws android.os.RemoteException;
 //--other marker interface methods--//
 

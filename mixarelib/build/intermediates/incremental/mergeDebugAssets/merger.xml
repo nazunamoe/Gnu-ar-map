@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Android Studio Projects\mixare\mixarelib\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\Android Studio Projects\mixare\mixarelib\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="G:\project\mixarelib\src\main\assets"/><source path="G:\project\mixarelib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="G:\project\mixarelib\src\debug\assets"/></dataSet></merger>

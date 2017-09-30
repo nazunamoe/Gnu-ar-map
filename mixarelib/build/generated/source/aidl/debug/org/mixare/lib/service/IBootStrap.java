@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\Android Studio Projects\\mixare\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IBootStrap.aidl
+ * Original file: G:\\project\\mixarelib\\src\\main\\aidl\\org\\mixare\\lib\\service\\IBootStrap.aidl
  */
 package org.mixare.lib.service;
 public interface IBootStrap extends android.os.IInterface
