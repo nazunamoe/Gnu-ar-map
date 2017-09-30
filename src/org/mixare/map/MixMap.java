@@ -31,7 +31,8 @@ public class MixMap extends Activity {
 	
 	public enum MAPS {
 		GOOGLE,
-		OSM
+		OSM,
+		KAKAO
 	}
 	
 	@Override
