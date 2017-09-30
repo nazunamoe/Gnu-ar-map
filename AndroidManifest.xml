@@ -146,5 +146,6 @@
         <activity android:name=".PluginListActivity" 
             android:label="@string/plugin_list">
         </activity>
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="2e3faa2092e56e0f25cd2cc437d85c20"/>
     </application>
 </manifest>
