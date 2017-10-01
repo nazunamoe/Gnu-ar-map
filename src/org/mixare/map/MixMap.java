@@ -31,7 +31,6 @@ public class MixMap extends Activity {
 	
 	public enum MAPS {
 		GOOGLE,
-		OSM,
 		KAKAO
 	}
 	
@@ -46,9 +45,9 @@ public class MixMap extends Activity {
 		if (map == MAPS.GOOGLE.name()) {
 			Log.d("test", "Launch GoogleMaps");
 			mapToLaunch = new Intent(this, GoogleMap.class);
-		} else if (map == MAPS.OSM.name()){
-			Log.d("test", "Launch OSM");
-			mapToLaunch = new Intent(this, OsmMap.class);
+		} else if (map == MAPS.KAKAO.name()){
+			Log.d("test", "Launch KAKAO");
+			mapToLaunch = new Intent(this, KakaoMap.class);
 		} else {
 			Log.d("test", "Fallback");
 			// fallback

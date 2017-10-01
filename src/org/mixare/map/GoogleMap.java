@@ -130,8 +130,8 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 		Intent intent = this.getIntent();
 		searchKeyword = intent.getStringExtra("search");
 
-		createOverlay();
-		createWalkingPath();
+		//createOverlay();
+		//createWalkingPath();
 
 		// Set center of the Map to your position or a Position out of the
 		// IntentExtras
@@ -392,16 +392,11 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 
 	/**
 	 * Gets fired when the selected item of the ListNavigation changes. This
-	 * method changes to the specified map. (Google Map/OSM)
+	 * method changes to the specified map. (Google Map)
 	 */
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
-		if (maps[itemPosition].equals(getString(R.string.map_menu_map_osm))) {
-			MixMap.changeMap(MixMap.MAPS.OSM);
-			Intent intent = new Intent(this, OsmMap.class);
-			startActivity(intent);
-			finish();
-		}
+
 		return true;
 	}
 

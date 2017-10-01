@@ -130,11 +130,6 @@
                 android:resource="@xml/searchable" />
         </activity>
         
-        <activity android:name=".map.OsmMap"
-        android:launchMode="singleTop"
-        android:screenOrientation="user" >
-    </activity>
-        
         <activity android:name=".data.AddDataSource" android:label="@string/add_datasource">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

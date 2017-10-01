@@ -20,7 +20,6 @@
 	</string-array>
 	<string-array name="maps">
 	    <item>@string/map_menu_map_google</item>
-	    <item>@string/map_menu_map_osm</item>
 		<item>@string/map_menu_map_Kakao</item>
 	</string-array>
 </resources>

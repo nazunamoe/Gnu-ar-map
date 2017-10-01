@@ -24,7 +24,6 @@ dependencies {
     //    compile 'org.mapsforge:mapsforge-map:0.6.0'
     compile fileTree(include: '*.jar', dir: 'lib')
     compile project(':mixarelib')
-    // compile files('lib/mapsforge-map-0.3.1-SNAPSHOT-jar-with-dependencies.jar')
     // compile 'com.google.android.gms:play-services:8.3.0'
     compile 'com.locoslab.api:carta:1.2.0-SNAPSHOT'
     compile files('libs/libDaumMapAndroid.jar')

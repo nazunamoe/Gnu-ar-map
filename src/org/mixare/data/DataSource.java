@@ -139,9 +139,6 @@ public class DataSource {
 						+ Double.toString(lon);
 				break;
 
-			case OSM:
-				ret += DataConvertor.getOSMBoundingBox(lat, lon, radius);
-				break;
 			case PANORAMIO:
 				final float minLong = (float) (lon - radius / 100.0);
 				final float minLat = (float) (lat - radius / 100.0);

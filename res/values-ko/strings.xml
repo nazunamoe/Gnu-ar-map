@@ -12,7 +12,7 @@
     <string name="W">W</string>
     <string name="NW">NW</string>
     
-    <string name="OSM">Openstreetmap</string>
+    <string name="KAKAO">KakaoMap</string>
     <string name="MIXARE">Mixare</string>
     <string name="TWITTER">Twitter</string>
     <string name="PANORAMIO">Panoramio</string>
@@ -86,7 +86,6 @@
 
 	<string name="map_menu_normal_mode">Map</string>
 	<string name="map_menu_satellite_mode">Satellite</string>
-	<string name="map_menu_map_osm">Open Street Map</string>
 	<string name="map_menu_map_google">Google Maps</string>
 	<string name="map_menu_map_Kakao">Kakao Maps</string>
 	<string name="map_menu_cam_mode">Camera</string>
@@ -111,8 +110,6 @@
 	<string name="download_error">Error while downloading</string>
 	<string name="download_received">Received data from</string>
 
-	<string name="add_osm_menu">Add OpenStreetMap URL</string>
-	<string name="insert_osm_url">Insert OpenStreetMap URL</string>
 	<string name="osm_max_object_menu">Set max POI per URL</string>
 	<string name="set_osm_max_object">Maximum POIs per URL</string>
 	<string name="location_not_found">Location not found, make sure you enabled Wifi location or GPS in the settings.</string>

@@ -33,8 +33,7 @@ import android.graphics.Bitmap;
 public class ImageMarker extends PluginMarker{
 
 	public static final int MAX_OBJECTS = 20;
-	private Bitmap image; 
-	public static final int OSM_URL_MAX_OBJECTS = 5;
+	private Bitmap image;
 
 	public ImageMarker(int id, String title, double latitude, double longitude,
 			double altitude, String URL, int type, int color) {
