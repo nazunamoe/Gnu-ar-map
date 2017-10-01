@@ -20,7 +20,6 @@ package org.mixare.lib.render;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.FloatMath;
 
 /**
  * This class holds information of a point in a three-dimensional coordinate

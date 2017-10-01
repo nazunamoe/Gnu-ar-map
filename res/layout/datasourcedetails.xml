@@ -103,5 +103,6 @@
             android:layout_height="wrap_content"
             android:entries="@array/blurgps" >
         </Spinner>
+
     </LinearLayout>
 </ScrollView>

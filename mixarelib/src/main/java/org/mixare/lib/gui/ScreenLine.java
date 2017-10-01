@@ -20,7 +20,6 @@ package org.mixare.lib.gui;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.FloatMath;
 
 /**
  * The class stores a point of a two-dimensional coordinate system.

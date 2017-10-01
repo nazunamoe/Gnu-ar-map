@@ -21,8 +21,6 @@ package org.mixare.lib;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-import android.util.Log;
-
 public class HtmlUnescape {
 
 	private static HashMap<String, String> htmlEntities;

@@ -35,8 +35,6 @@ import org.mixare.lib.render.Matrix;
 import org.mixare.lib.reality.Filter;
 import org.mixare.map.MixMap;
 import org.mixare.mgr.HttpTools;
-import org.mixare.plugin.PluginLoader;
-import org.mixare.plugin.PluginType;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
@@ -64,7 +62,6 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.provider.Settings;
-import android.util.FloatMath;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -78,7 +75,6 @@ import android.view.Window;
 import android.widget.FrameLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * This class is the main application which uses the other classes for different

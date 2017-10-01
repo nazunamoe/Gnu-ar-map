@@ -20,7 +20,6 @@ package org.mixare.lib.render;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.FloatMath;
 
 /**
  * The Matrix class represents a 3x3 matrix which can store decimal numbers.

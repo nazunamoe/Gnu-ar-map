@@ -38,7 +38,6 @@ import org.mixare.lib.MixUtils;
 import org.mixare.lib.gui.PaintScreen;
 import org.mixare.lib.gui.ScreenLine;
 import org.mixare.lib.marker.Marker;
-import org.mixare.lib.marker.draw.PrimitiveProperty.primitive;
 import org.mixare.lib.render.Camera;
 import org.mixare.mgr.downloader.DownloadManager;
 import org.mixare.mgr.downloader.DownloadRequest;

@@ -21,7 +21,6 @@ package org.mixare;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mixare.R;
 import org.mixare.plugin.Plugin;
 import org.mixare.plugin.PluginStatus;
 import org.mixare.sectionedlist.Item;

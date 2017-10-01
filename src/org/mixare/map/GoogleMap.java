@@ -45,7 +45,6 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -120,7 +119,7 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 		dataView = MixView.getDataView();
 
 		setMapContext(this);
-		setMapView(new MapView(this, "0zMCXwuwyQLKoOtdQc8VelAT_ipCTDn-h8R-p6A"));
+		setMapView(new MapView(this, "AIzaSyDi6LCn4UewLwMExKEC-U0I6OEy3-rPKk4"));
 		getMapView().setBuiltInZoomControls(true);
 		getMapView().setClickable(true);
 		getMapView().setSatellite(true);

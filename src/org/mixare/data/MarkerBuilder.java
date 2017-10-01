@@ -1,7 +1,5 @@
 package org.mixare.data;
 
-import android.util.Log;
-
 import org.mixare.marker.ImageMarker;
 import org.mixare.marker.LocalMarker;
 import org.mixare.marker.NavigationMarker;

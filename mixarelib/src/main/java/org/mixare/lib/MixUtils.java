@@ -18,8 +18,6 @@
  */
 package org.mixare.lib;
 
-import android.util.FloatMath;
-
 /**
  * This class has the ability to calculate the declination of a line between two
  * points. It is able to check if a point is in a given rectangle and it also

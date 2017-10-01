@@ -29,8 +29,8 @@
         <blur>0</blur>
     </datasource>
     <datasource id="3" >
-        <name>Own URL</name>
-        <url>http://mixare.org/geotest.php</url>
+        <name>Debug</name>
+        <url>http://lab.khlug.org/manapie/javap/getSchoolInfo.php</url>
         <type>3</type>
         <display>0</display>
         <visible>true</visible>

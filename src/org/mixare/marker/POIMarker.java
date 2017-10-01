@@ -19,12 +19,9 @@
 
 package org.mixare.marker;
 
-import java.text.DecimalFormat;
-
 import org.mixare.lib.MixUtils;
 import org.mixare.lib.gui.PaintScreen;
 import org.mixare.lib.gui.TextObj;
-import org.mixare.marker.LocalMarker;
 
 import android.graphics.Color;
 import android.graphics.Path;
