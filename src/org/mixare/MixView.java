@@ -456,7 +456,7 @@ public class MixView extends SherlockActivity implements SensorEventListener, On
 			getMixViewData().clearAllSensors();
 		}
 
-		Log.d("-------------------------------------------", "resume");
+		Log.d("", "resume");
 		if (getDataView().isFrozen()
 				&& getMixViewData().getSearchNotificationTxt() == null) {
 			getMixViewData().setSearchNotificationTxt(new TextView(this));

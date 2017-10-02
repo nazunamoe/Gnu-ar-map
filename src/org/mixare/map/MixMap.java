@@ -51,8 +51,8 @@ public class MixMap extends Activity {
 		} else {
 			Log.d("test", "Fallback");
 			// fallback
-			mapToLaunch = new Intent(this, GoogleMap.class);
-			changeMap(MAPS.GOOGLE);
+			mapToLaunch = new Intent(this, KakaoMap.class);
+			changeMap(MAPS.KAKAO);
 		}
 		
 		Intent intent = this.getIntent();

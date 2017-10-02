@@ -130,8 +130,8 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 		Intent intent = this.getIntent();
 		searchKeyword = intent.getStringExtra("search");
 
-		//createOverlay();
-		//createWalkingPath();
+		createOverlay();
+		//CreateWalkingPath();
 
 		// Set center of the Map to your position or a Position out of the
 		// IntentExtras
@@ -175,7 +175,6 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 	 * Closes MapView Activity and returns to MixView with or without the
 	 * request to refresh the screen.
 	 * 
-	 * @param boolean True to refresh screen false not to
 	 */
 	private void closeMapViewActivity(boolean doRefreshScreen) {
 		Intent closeMapView = new Intent();
@@ -307,7 +306,7 @@ public class GoogleMap extends SherlockGoogleMapActivity implements
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		/* define the first */
+		// define the first
 		int base = Menu.FIRST;
 
 		// TODO: Get Strings out of values
@@ -538,6 +537,15 @@ class MixOverlay extends ItemizedOverlay<OverlayItem> {
 
 	private ArrayList<OverlayItem> overlayItems = new ArrayList<OverlayItem>();
 	private GoogleMap mixMap;
+	private KakaoMap kakaoMap;
+
+	public MixOverlay(KakaoMap kakaoMap, Drawable marker) {
+		super(boundCenterBottom(marker));
+		// need to call populate here. See
+		// http://code.google.com/p/android/issues/detail?id=2035
+		populate();
+		this.kakaoMap = kakaoMap;
+	}
 
 	public MixOverlay(GoogleMap mixMap, Drawable marker) {
 		super(boundCenterBottom(marker));

@@ -129,6 +129,17 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
+
+        <activity android:name=".map.KakaoMap"
+            android:launchMode="singleTop"
+            android:screenOrientation="user" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="com.kakao.sdk.AppKey"
+                android:value="2e3faa2092e56e0f25cd2cc437d85c20" />
+        </activity>
         
         <activity android:name=".data.AddDataSource" android:label="@string/add_datasource">
             <intent-filter>
@@ -143,6 +154,6 @@
         <activity android:name=".PluginListActivity"
             android:label="@string/plugin_list">
         </activity>
-        <meta-data android:name="com.kakao.sdk.AppKey" android:value="2e3faa2092e56e0f25cd2cc437d85c20"/>
+
     </application>
 </manifest>
